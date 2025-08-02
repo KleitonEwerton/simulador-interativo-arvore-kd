@@ -1,0 +1,28 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+.control-panel label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+.control-panel input,
+.control-panel button,
+.control-panel textarea {
+  transition: all 0.2s ease-in-out;
+}
+.tooltip {
+  position: absolute;
+  text-align: center;
+  padding: 8px;
+  font: 12px sans-serif;
+  background: lightsteelblue;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+#visualization-container {
+  cursor: crosshair;
+}
